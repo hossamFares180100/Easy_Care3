@@ -1,0 +1,69 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.android.application'
+apply plugin: 'com.chaquo.python'
+
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        applicationId "com.example.easycare"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        python
+                {
+                    buildPython "C:\\Users\\hossamFares\\AppData\\Local\\Programs\\Python\\Python38\\python.exe"
+                    pip {
+                        install "pytholog"
+                    }
+                }
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+
+
+    implementation platform('com.google.firebase:firebase-bom:26.1.1')
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+    implementation 'com.wrapp.floatlabelededittext:library:0.0.6'
+    implementation 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+    implementation 'com.getbase:floatingactionbutton:1.9.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.cuberto:liquid-swipe:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'me.spark:submitbutton:1.0.1'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'com.google.firebase:firebase-database:19.5.0'
+    implementation 'com.google.firebase:firebase-messaging:20.3.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'br.com.simplepass:loading-button-android:2.2.0'
+    implementation 'com.google.firebase:firebase-storage:19.2.0'
+    implementation 'com.google.firebase:firebase-auth:19.3.1'
+    implementation 'com.github.bumptech.glide:glide:3.8.0'
+    implementation 'androidx.viewpager2:viewpager2:1.0.0'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'com.balysv:material-ripple:1.0.2'
+    implementation 'com.github.sujithkanna:smileyrating:2.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+}

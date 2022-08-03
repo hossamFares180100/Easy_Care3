@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigationMenu"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Menu" />
+
+
+
+    <item
+        android:id="@+id/nav_contact_us"
+        android:icon="@drawable/call_center"
+        android:title="Contact Us" />
+
+    <item android:id="@+id/nav_feedback"
+        android:icon="@drawable/ic_feedback_v2"
+        android:title="Feedback"/>
+
+
+</menu>

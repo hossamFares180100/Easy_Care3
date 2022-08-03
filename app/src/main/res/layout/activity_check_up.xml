@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+
+    android:id="@+id/drawer_layout"
+    tools:context=".CheckUpActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gif_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/woman_doctor2"
+            android:scaleType="centerCrop"/>
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navigation_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:background="?android:attr/windowBackground"
+            android:foreground="?attr/selectableItemBackground"
+            app:menu="@menu/master_bottom_navigation"
+            app:elevation="10dp"
+            app:labelVisibilityMode="labeled"
+            app:itemIconTint="@color/bottom_navigation_color"
+            app:itemTextColor="@color/bottom_navigation_color"
+            app:itemBackground="@color/bottomNavigationBackground"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/item_nav"
+        tools:openDrawer="start"
+        android:theme="@style/AppTheme2"/>
+
+
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,58 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/myActionMode</item>
+    </style>
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        
+    </style>
+
+
+    <style name="AppTheme3" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+    </style>
+
+
+    <style name="materialripple">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">#BC9898</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+        <item name="mrl_rippleHover">true</item>
+    </style>
+
+    <style name="materialripple2">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">#36363A</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+        <item name="mrl_rippleHover">true</item>
+    </style>
+
+
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_below</item>
+    </style>
+    <style name="AppTheme.NoActonBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="myActionMode" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="background">@color/colorPrimary</item>
+    </style>
+
+</resources>

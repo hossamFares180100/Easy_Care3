@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Easy Care</string>
+    <string name="instruction">Easy Care App is a project that combines medicine with artificial intelligence.</string>
+    <string name="title_activity_nearby_hospital_map">Map</string>
+    <string name="email">Email</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="top_icon">TOP ICON</string>
+    <string name="forgot_password">FORGOT PASSWORD?</string>
+    <string name="new_user_register_now">New User? Register Now</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="no_cardetails">Click on the button below to begin creating your reminder!</string>
+    <string name="title_activity_add_reminder">Add Reminder</string>
+    <string name="title_activity_edit_reminder">Edit Reminder</string>
+    <string name="title_activity_licenses">Licenses</string>
+    <string name="pill_reminder_disc">Easy Care Will be the app that you can rely on it for your medical part in your life.</string>
+
+    <string name="pill_reminder_title">Pill Reminder</string>
+
+
+    <string name="check_up_disc">Easy Care Will be the app that you can rely on it for detect your diseases.</string>
+
+    <string name="Check_Up_title">Check Up</string>
+
+
+    <string name="hospital_finder_disc">Easy Care Will be the app that you can rely on it for find the nearby hospitals.</string>
+
+    <string name="Easy_care_disc">Easy Care Will be doctor in your hand :).</string>
+
+    <string name="hospital_finder_title">Hospital Finder</string>
+
+    <string name="add_reminder">Reminder</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_off">Off</string>
+    <string name="repeat_no">Repetition Interval </string>
+    <string name="repeat_type">Type of Repetitions</string>
+
+    <string name="action_discard_reminder">Discard Reminder</string>
+    <string name="action_save_reminder">Save Reminder</string>
+
+    <string name="editor_activity_title_new_reminder">Add Reminder Details</string>
+    <string name="editor_activity_title_edit_reminder">Edit Reminder</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this Reminder?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_reminder_successful">Reminder deleted</string>
+
+    <string name="editor_delete_reminder_failed">Error with deleting reminder</string>
+
+    <string name="editor_insert_reminder_successful">Reminder saved</string>
+
+    <string name="editor_insert_reminder_failed">Error with saving reminder</string>
+
+    <string name="editor_update_reminder_successful">Reminder updated</string>
+
+    <string name="editor_update_reminder_failed">Error with updating reminder</string>
+
+    <string name="reminder_title">AlarmReminder</string>
+</resources>

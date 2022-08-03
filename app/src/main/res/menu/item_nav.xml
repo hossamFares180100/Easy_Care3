@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_brain"
+            android:icon="@drawable/ic_artificial_intelligence"
+            android:title="Brain and Nerve Diseases" />
+
+
+        <item
+            android:id="@+id/nav_women"
+            android:icon="@drawable/ic_woman__1_"
+            android:title="Women Diseases" />
+        <item
+            android:id="@+id/nav_bones"
+            android:icon="@drawable/ic_x_rays"
+            android:title="Bones Diseases">
+        </item>
+</group>
+
+<item android:title="Group2">
+<menu>
+        <item
+            android:id="@+id/nav_children"
+            android:icon="@drawable/ic_children"
+            android:title="Children Diseases">
+        </item>
+
+        <item
+            android:id="@+id/nav_dental"
+            android:icon="@drawable/ic_dental_care"
+            android:title="Dental Diseases">
+        </item>
+    <item
+        android:id="@+id/nav_dematoses"
+        android:icon="@drawable/ic_dermatologist"
+        android:title="dermatoses Diseases">
+    </item>
+
+</menu>
+</item>
+
+
+    <item android:title="Group3">
+        <menu>
+
+
+        <item
+            android:id="@+id/nav_eye"
+            android:icon="@drawable/ic_eye_variant_with_enlarged_pupil"
+            android:title="Eyes Diseases">
+        </item>
+
+        <item
+            android:id="@+id/nav_ear"
+            android:icon="@drawable/ic_ear"
+            android:title="ear nose and throat Diseases">
+        </item>
+        </menu>
+    </item>
+
+
+
+
+
+</menu>
